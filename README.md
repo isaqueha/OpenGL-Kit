@@ -6,7 +6,7 @@ To compile your code to an .exe program, follow these steps:
 
 1. Be sure you have MinGW C++ compiler installed on your Windows - https://sourceforge.net/projects/mingw/files/
 2. Be sure you have recent OpenGL Libraries by upgrading the video drivers (Nvidia, AMD, or Intel)
-3. Paste your source file(s) in the Kit folder. There are header and library files there as well.
+3. Download the OpenGL-Kit folder and paste your source file(s) on it.
 4. Call a command window and run the compiler command:
 ```
 g++ -o OpenGL.exe Source.cpp glfw3dll.a libglew32.dll.a -I include -L./ -lglew32 -lglfw3 -lopengl32
